@@ -4,7 +4,7 @@ kind: Pod
 metadata: "name:webappdemo"
 spec: 
   containers: 
-    - image: "komalnimje20/webappdemo:v1"
+    - image: "webapi:v33"
       name: "webappdemo-container"
       ports: 
         - containerPort: 80
